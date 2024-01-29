@@ -259,22 +259,22 @@ span, footer {  line-height: 1.8; }
 /* Brand */
 .tm-brand {
     position: fixed;
-    bottom: 80px;
+    top: 80px;
     right: 70px;
-    width: 300px;
-    height: 240px;
+    width: 100px;
+    height: 70px;
     margin-top: 0;
     margin-bottom: 0;
-    background-color: #333;
-    color: #999;
+    background-color: #33333394;
+    color: #5ff35a;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-.tm-brand-icon { margin-bottom: 25px; }
-.tm-brand-text { font-size: 32px; }
+.tm-brand-icon { margin-bottom: 30px; }
+.tm-brand-text { font-size: 12px; margin-left: 5px }
 
 /* Nav */
 .navbar-toggler { display: none; }
@@ -283,8 +283,8 @@ span, footer {  line-height: 1.8; }
     position: fixed;
     top: 0;
     left: -1px;
-    width: 50%;
-    z-index: 1000;  
+    width: 100%;  
+    z-index: 1000;
 }
 
 .tm-nav ul {
@@ -297,8 +297,8 @@ span, footer {  line-height: 1.8; }
 
 .nav-link {
     color: #999;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     display: block;
     font-size: 20px;
 }
@@ -307,6 +307,9 @@ span, footer {  line-height: 1.8; }
 .nav-link.current {
     color: #99CC99;
 }
+
+/* Pages articles */
+
 
 /* Introduction */
 .tm-media {
@@ -378,7 +381,7 @@ span, footer {  line-height: 1.8; }
 	padding: 1em;
 	color: #fff;
 	text-transform: uppercase;
-	font-size: 1em;
+	font-size: 9px;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 }
